@@ -1,0 +1,267 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+/* font-family: 'Open Sans', sans-serif; */
+
+/* @import url("https://fonts.googleapis.com/css2?family-Poppins:wght@300;400;500;600&display-swap"); */
+/* font-family: "Poppins", sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+/* font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; */
+:root {
+    --main-bg-color: #BE3455;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    background-color:#f1f3f6 ;
+
+}
+
+.navbar {
+    font-size: 1.2rem;
+    font-weight: 400;
+    /* position: fixed; */
+    position: relative;
+    width: 100%;
+    min-width: 978px;
+    top: 0;
+    height: 60px;
+    color: inherit;
+    /* background-color: #6667AB; */
+    background-color: var(--main-bg-color);
+    background-color: var car;
+    z-index: 1;
+
+}
+
+.nav-iteams {
+    display: flex;
+    padding: 11px 30px;
+    justify-content: space-between;
+    color: white;
+    /* flex-wrap: wrap ; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.img-logo {
+    position: relative;
+    float: left;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+    /* cursor: pointer; */
+}
+
+.right-iteams {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.mens {
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.womens span {
+    cursor: pointer;
+}
+
+.left-iteams {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile span {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon svg {
+    width: 20px;
+}
+
+.profile a {
+    text-decoration: none;
+}
+
+.profile-text {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.orders span {
+    cursor: pointer;
+}
+
+.cart {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.cart a {
+    text-decoration: none;
+}
+
+.cart-icon svg {
+    width: 20px;
+}
+
+.cart-text {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2px;
+}
+
+
+/* .cart-name {
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0; 
+    transition: .5s ease;
+    background: rgba(255, 251, 0, 0.72);
+    color: #fff; 
+    visibility: hidden;
+    
+} */
+
+/* .cart-icon:hover .cart-name {
+    visibility: visible;
+    opacity: 1;
+    
+} */
+
+.wishlist-text {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.wishlist {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.wishlist a {
+    text-decoration: none;
+}
+
+.wishlist-icon svg {
+    width: 20px;
+}
+
+.iteams-url {
+    text-decoration: none;
+    color: #fff;
+}
+
+#form {
+    background-color: white;
+    width: 400px;
+    height: 36px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+}
+
+#form input {
+    display: flex;
+    all: unset;
+    font: 15px system-ui;
+    color: var(--main-bg-color);
+    height: 100%;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+::placeholder {
+    color: #BE3455;
+    opacity: 0.7;
+}
+
+.btn {
+    all: unset;
+    cursor: pointer;
+    width: 40px;
+    height: 100%;
+}
+
+svg {
+    display: flex;
+    align-items: center;
+    color: var(--main-bg-color);
+    fill: currentColor;
+    width: 20px;
+    height: 100%;
+    margin: auto;
+}
+
+/* --------------Main------------ */
+
+#container {
+    /* background-color: #f2f2f2; */
+    background-color: #f1f3f6;
+    position: relative;
+    top: 20px;
+    margin: 0 20px 0 20px;
+    height: 100%;
+    min-height: calc(100vh - 12vh - 60px);
+    /* height: 100% - 50px; */
+    /* height: calc(100vh -80px); */
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%);
+}
+
+
+
+/* .container {
+    position: relative;
+    top: 50px;
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(8, 91, 64); 
+    background-color: white;
+
+} */
+
+/* footer  */
+/* footer {
+    height: 20vh;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+    top: 50px; */
+/* } */

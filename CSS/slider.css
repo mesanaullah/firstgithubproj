@@ -1,0 +1,89 @@
+.slider {
+    display: flex;
+    position: relative;
+    width: 100%;
+    /* height: 400px; */
+    aspect-ratio: 3/1;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    line-height: 0;
+    /* transition: all 10s ease; */
+   
+
+    /* background-image: linear-gradient(135deg, rgba(139, 53, 123,0.5) 0%, rgba(139, 53, 123,0.5) 10%,transparent 10%, transparent 19%,rgba(84, 33, 86,0.5) 19%, rgba(84, 33, 86,0.5) 27%,rgba(157, 60, 135,0.5) 27%, rgba(157, 60, 135,0.5) 53%,transparent 53%, transparent 56%,rgba(176, 66, 147,0.5) 56%, rgba(176, 66, 147,0.5) 61%,rgba(102, 40, 98,0.5) 61%, rgba(102, 40, 98,0.5) 100%),linear-gradient(45deg, rgb(139, 53, 123) 0%, rgb(139, 53, 123) 8%,transparent 8%, transparent 9%,transparent 9%, transparent 10%,rgb(157, 60, 135) 10%, rgb(157, 60, 135) 14%,rgb(121, 46, 110) 14%, rgb(121, 46, 110) 50%,rgb(176, 66, 147) 50%, rgb(176, 66, 147) 97%,rgb(102, 40, 98) 97%, rgb(102, 40, 98) 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255)); */
+}
+
+.slider-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+
+}
+
+.mySlides {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.left-icon {
+    position:absolute;
+    /* aspect-ratio: 1 / 2; */
+    background-color: #ffff;
+    padding: 25px 10px 25px 10px;;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    cursor: pointer;
+    /* height: 40px; */
+    left: 0;
+    top: 50%;
+    transform: translate(0px, -50%);
+
+
+
+    
+}
+
+.left-icon-btn {
+    vertical-align: middle;
+    position: absolute;
+    display: table-cell;
+    all: unset;
+    cursor: pointer;
+    
+}
+
+
+.right-icon {
+    position: absolute;
+    padding: 25px 10px 25px 10px;;
+    /* aspect-ratio: 1/2; */
+    background-color: #fff;
+    right: 0;
+    top: 50%;
+    transform: translate(0px, -50%);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    cursor: pointer;
+}
+
+.right-icon-button {
+    vertical-align: middle;
+    position: absolute;
+    display: table-cell;
+    all: unset;
+    cursor: pointer;
+}
+.left-icon:hover{
+    background-color: #f1f3f6;
+}
+.right-icon:hover{
+    background-color: #f1f3f6;
+}
